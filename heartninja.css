@@ -1,0 +1,25 @@
+
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#gameCanvas {
+    display: block;
+    background-color: white;
+}
+
+.love-message {
+    position: absolute;
+    color: red;
+    font-size: 2em;
+    font-weight: bold;
+    animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
